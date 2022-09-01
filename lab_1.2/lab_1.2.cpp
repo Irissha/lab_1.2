@@ -17,5 +17,4 @@ int main()
 	cin >> m;
 	c = n++ > m;
 	cout << c << endl;
-
 }
