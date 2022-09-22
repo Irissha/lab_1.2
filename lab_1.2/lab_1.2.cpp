@@ -2,15 +2,16 @@
 using namespace std;
 int main() {
 	float n, m, a, b, c;
+	
 	cin >> n;
 	cin >> m;
-	a = ++n * ++m; // (++)перед исполнением кода увелич знач на единицу 
-	cout << "\n1)" << a;
-	cout << "\n";
+	a = ++n * ++m; 
+	
+	cout << "\n1)" << a << "\n";
+	
 	b = m++ < n;  =
-	cout << "\n2)" << b;
-	cout << "\n";
+	cout << "\n2)" << b << "\n";
+	
 	c = n++ > m;
-	cout << "\n3)" << c;
-	cout << "\n";
+	cout << "\n3)" << c << "\n";
 }
