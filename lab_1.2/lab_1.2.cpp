@@ -9,7 +9,7 @@ int main() {
 	
 	cout << "\n1)" << a << "\n";
 	
-	b = m++ < n;  =
+	b = m++ < n;  
 	cout << "\n2)" << b << "\n";
 	
 	c = n++ > m;
